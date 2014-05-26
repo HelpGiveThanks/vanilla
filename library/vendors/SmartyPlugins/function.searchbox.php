@@ -17,7 +17,7 @@ Contact Vanilla Forums Inc. at support [at] vanillaforums [dot] com
  * @return The url.
  */
 function smarty_function_searchbox($Params, &$Smarty) {
-   $Placeholder = array_key_exists('placeholder', $Params) ? GetValue('placeholder', $Params, '', TRUE) : T('SearchBoxPlaceHolder', 'Search');
+   $Placeholder = array_key_exists('placeholder', $Params) ? GetValue('placeholder', $Params, '', TRUE) : T('SearchBoxPlaceHolder', 'Search Forum');
    $Form = Gdn::Factory('Form');
    $Form->InputPrefix = '';
    $Result =

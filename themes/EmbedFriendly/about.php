@@ -11,11 +11,11 @@ Contact Vanilla Forums Inc. at support [at] vanillaforums [dot] com
 /**
  * An associative array of information about this application.
  */
-$ThemeInfo['Embed Friendly'] = array(
-   'Name' => 'Embed-Friendly',
-   'Description' => "A fluid theme that fits into any width. Use it for embedding Vanilla into other website pages.",
-   'Version' => '3.0',
-   'Author' => "Mark O'Sullivan",
-   'AuthorEmail' => 'mark@vanillaforums.com',
-   'AuthorUrl' => 'http://markosullivan.ca'
+$ThemeInfo['nitrogen'] = array(
+   'Name' => 'nitrogen',
+   'Description' => "The Nitrogen theme for Vanilla is a remix of the EmbedFriendly theme. This Nitrogen theme's purpose is to match the styling of the Nitrogen Bug Genie template, and to provide a top button menu button bar that allows for seemless navigation between a Vanilla Forum and a Bug Genie Project Managaer.",
+   'Version' => APPLICATION_VERSION,
+   'Author' => "Mark O'Sullivan (original EmbedFriendly theme), David Matson (Nitrogen remix)",
+   'AuthorEmail' => '',
+   'AuthorUrl' => 'http://helpgivethanks.org/apps/thebuggenie/wiki/WebsiteTemplate'
 );
